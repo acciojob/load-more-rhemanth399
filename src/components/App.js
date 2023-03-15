@@ -1,7 +1,7 @@
 
 import React from "react";
 import './../styles/App.css';
-
+import LoadMoreList from "./LoadMoreList";
 const items = [
   "Item 1",
   "Item 2",
