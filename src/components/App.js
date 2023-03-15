@@ -38,7 +38,7 @@ const items = [
 const App = () => {
   return (
     <div>
-        {/* Do not remove the main div */}
+        {<LoadMoreList items={items} itemsPerLoad={5} />}
     </div>
   )
 }
