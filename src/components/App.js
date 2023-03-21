@@ -22,7 +22,7 @@ async function getItems(){
         </ul>
       ):(<p>{null}</p>
       )}
-        <button onClick={()=>getItems()} >Load more</button>
+        <button onClick={()=>getItems()} >Load More</button>
     </div>
   )
 }
